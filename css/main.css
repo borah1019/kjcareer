@@ -42,7 +42,7 @@ body {
 
 #header h1 a {
   display: block;
-  background: url(/img/common/logo.png) no-repeat center;
+  background: url("../img/common/logo.png") no-repeat center;
   background-size: contain;
 }
 
@@ -178,7 +178,7 @@ body {
 #footer .footer_top .family_site li a {
   display: block;
   height: 46px;
-  background-image: url(/img/common/family_logo.png);
+  background-image: url("../img/common/family_logo.png");
   background-repeat: no-repeat;
   background-size: auto 100%;
 }
@@ -216,19 +216,19 @@ body {
 }
 
 #footer .footer_top .sns li:nth-child(1) {
-  background-image: url(/img/common/sns_youtube.png);
+  background-image: url("../img/common/sns_youtube.png");
 }
 
 #footer .footer_top .sns li:nth-child(2) {
-  background-image: url(/img/common/sns_kakao.png);
+  background-image: url("../img/common/sns_kakao.png");
 }
 
 #footer .footer_top .sns li:nth-child(3) {
-  background-image: url(/img/common/sns_instargram.png);
+  background-image: url("../img/common/sns_instargram.png");
 }
 
 #footer .footer_top .sns li:nth-child(4) {
-  background-image: url(/img/common/sns_naver.png);
+  background-image: url("../img/common/sns_naver.png");
 }
 
 #footer .footer_bottom {
@@ -370,17 +370,17 @@ body {
 }
 
 #main .business1 .content_box::before {
-  background: url(/img/main/main_sec01bg.png) no-repeat center / cover;
+  background: url("../img/main/main_sec01bg.png") no-repeat center / cover;
 }
 
 #main .business1 .content_box::after {
-  background: url(/img/main/main_sec01.png) no-repeat;
+  background: url("../img/main/main_sec01.png") no-repeat;
 }
 
 /* Index - Business2 */
 
 #main .business2 {
-  background: url(/img/main/main_sec02.png) #2071f8 no-repeat 5% 450px;
+  background: url("../img/main/main_sec02.png") #2071f8 no-repeat 5% 450px;
 }
 
 #main .business2 .inner {
@@ -495,13 +495,13 @@ body {
 
 #main .business3 .content_box::after {
   transform: translateY(-50%);
-  background: url(/img/main/main_sec03.png) no-repeat center / contain;
+  background: url("../img/main/main_sec03.png") no-repeat center / contain;
 }
 
 /* Index - Business4 */
 
 #main .business4 {
-  background: url(/img/main/main_sec04bg.png) no-repeat center;
+  background: url("../img/main/main_sec04bg.png") no-repeat center;
   background-size: cover;
   color: #FFF;
 }
@@ -865,20 +865,6 @@ body {
   width: 100%
 }
 
-
-
-
-
-
-
-
-
-
-
-#main .section {
-  border: 1px solid #000;
-}
-
 body::before {
   padding: 1.5em;
   position: fixed;
@@ -898,11 +884,7 @@ body::before {
 /* PC */
 
 @media screen and (min-width: 1280px) {
-  
-  body::before {
-    content: 'PC(1280px-)';
-  }
-  
+
   /* Header */
 
   #header {
@@ -951,7 +933,7 @@ body::before {
     padding: 50px 50px 50px 550px;
     border-radius: 0 0 100px 0;
     box-sizing: border-box;
-    background: #f0f0f0 url(/img/common/nav_bg.png) no-repeat;
+    background: #f0f0f0 url("../img/common/nav_bg.png") no-repeat;
     background-position: right 10% bottom 10px;
     background-size: 400px auto;
   }
@@ -1257,10 +1239,6 @@ body::before {
 
 @media screen and (max-width: 1279px) {
 
-  body::before {
-    content: 'Tab3(-1279px)';
-  }
-
   /* Common */
 
   /* Header */
@@ -1539,11 +1517,7 @@ body::before {
 /* Tab2 */
 
 @media screen and (max-width: 1023px) {
-  
-  body::before {
-    content: 'Tab2(-1023px)';
-  }
-    
+
   /* Common */
 
   /* Header */
@@ -1766,10 +1740,6 @@ body::before {
 
 @media screen and (max-width: 768px) {
   
-  body::before {
-    content: 'Tab1(-768px)';
-  }
-  
   /* Common */
 
   .inner {
@@ -1909,10 +1879,6 @@ body::before {
 /* Mob */
 
 @media screen and (max-width: 480px) {
-
-  body::before {
-    content: 'Mob(-480px)';
-  }
 
   /* Common */
 
